@@ -25,5 +25,9 @@ public class LoginPage {
 		f1.clickLogin();
 		
 	}
+	@Test
+	public void Rj() {
+		System.out.println("Umesh C");
+	}
 
 }
