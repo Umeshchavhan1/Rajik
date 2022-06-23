@@ -3,18 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ZerodhaTest.exportreport$LoginPageTest">
+      <class name="FaceBook.LoginPage">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="OpenBrowser"/>
-          <include name="LoginWithValidCredentialTest"/>
-          <include name="forgotPasswordLinkTest"/>
-          <include name="flushResult"/>
-          <include name="clickOnLoginWithOutDataTest"/>
-          <include name="SignupLinkTest"/>
-          <include name="ReportsPage"/>
+          <include name="EnterLogin"/>
+          <include name="browser"/>
         </methods>
-      </class> <!-- ZerodhaTest.exportreport$LoginPageTest -->
+      </class> <!-- FaceBook.LoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
